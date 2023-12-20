@@ -8,10 +8,13 @@ By the end of today's lecture, you will be able to grab elements from the DOM an
 
 1. Take a look at the HTML page to familiarize yourself with it.
     - What do the elements resemble? Why is this referred to as a **tree**?
+		    refers to the relationship between nodes  (parent - child)
     - What is the **Document Object Model**?
     - What is the `defer` line doing in the `<script>` tag?
+				defer tells the script to load the entirety of the index.js and DOM before anything in the html is executed
 2. Grab the `<h1>` tag from the DOM and change its color.
     - What are the different ways to grab the tag?
+		querySelector(`#id`)
 3. Grab the `<p>` tag from the DOM and replace its filler text with real text.
     - What is the difference between `innerHTML` and `textContent`?
 4. Create a list of 5 numbers and add them to the `<ol>` tag.
